@@ -1,43 +1,31 @@
-let cats = [ "Milo", "Otis", "Garfield"];
+let cats = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendCat(name){
-    return cats.push(name)
+function destructivelyAppendCat(name) {
+  return cats.push(name);
 }
 
 //TODO: Valentine
-function destructivelyPrependCat(name){
-    
+function destructivelyPrependCat(name) {
+  return cats.unshift(name);
 }
 
 //TODO: Edith
-function  destructivelyRemoveLastCat(name){
-
-}
+function destructivelyRemoveLastCat(name) {}
 
 //TODO: Anthony
-function destructivelyRemoveFirstCat(name){
-
-}
+function destructivelyRemoveFirstCat(name) {}
 
 //TODO: Alvin
-function appendCat(name){
-
-}
-
+function appendCat(name) {}
 
 //TODO: Neema
-function prependCat(name){
+function prependCat(name) {}
 
-}
-
-console.log(prependCat("Arnold"))
-
+console.log(prependCat("Arnold"));
 
 //TODO: Crispus
-function  removeLastCat(name){
-    
+function removeLastCat(name) {}
+function removeFirstCat(name) {
+  return cats.slice(1);
 }
- function  removeFirstCat(name){
-    return cats.slice(1)
- }
- console.log(removeFirstCat("Arnold"))
+console.log(removeFirstCat("Arnold"));
