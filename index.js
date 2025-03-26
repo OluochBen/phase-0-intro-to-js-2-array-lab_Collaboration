@@ -4,37 +4,30 @@ function destructivelyAppendCat(name){
     return cats.push(name)
 }
 
-//TODO: Valentine
+
 function destructivelyPrependCat(name){
-    
+    return cats.unshift(name)
 }
 
-//TODO: Edith
 function  destructivelyRemoveLastCat(name){
-
+    return cats.pop(name)
 }
 
-//TODO: Anthony
 function destructivelyRemoveFirstCat(name){
-
+    return cats.shift(name)
 }
-
-//TODO: Alvin
 function appendCat(name){
-
+    return cats.concat(name)
 }
 
-
-//TODO: Neema
 function prependCat(name){
-
+    return [name, ...cats ];
 }
 
 console.log(prependCat("Arnold"))
 
-
-//TODO: Crispus
 function  removeLastCat(name){
+    return cats.slice(0,2)
     
 }
  function  removeFirstCat(name){
